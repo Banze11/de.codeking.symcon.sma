@@ -34,6 +34,7 @@ class SMARegister
                     8001 => 'Solar Inverter',
                     8002 => 'Wind Turbine Inverter',
                     8007 => 'Battery Inverter',
+                    8009 => 'Hybrid Wechselrichter'
                     8033 => 'Consumer',
                     8064 => 'Sensor System in General',
                     8065 => 'Electricity meter',
@@ -362,6 +363,7 @@ class SMARegister
                     9315 => 'PlugwiseSting',
                     9316 => 'SCS-1000',
                     9317 => 'SB 5400TL-JP-22',
+                    19051 => 'SUNNY TRIPOWER 10.0 SE (STP10.0-3SE-40)'
                 ]
             ],
             30057 => [
