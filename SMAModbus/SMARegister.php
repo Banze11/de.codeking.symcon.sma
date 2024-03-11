@@ -102,6 +102,23 @@ class SMARegister
                 'profile' => '~Electricity',
                 'archive' => 1 // archive: counter
             ],
+            30537 => [
+                'name' => 'Day yield',
+                'count' => 2,
+                'type' => 'U32',
+                'format' => 'FIX3', // convert Wh to kWh
+                'profile' => '~Electricity',
+                'archive' => 1 // archive: counter
+            ],
+            30539 => [
+                'name' => 'Day yield',
+                'count' => 2,
+                'type' => 'U32',
+                'format' => 'FIX3', // convert Wh to kWh
+                'profile' => '~Electricity',
+                'archive' => 1 // archive: counter
+            ],
+    
             30531 => [
                 'name' => 'Total yield',
                 'count' => 2,
