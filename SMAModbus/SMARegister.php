@@ -290,48 +290,48 @@ class SMARegister
                 'type' => 'U32',
                 'format' => 'FW',
             ],*/
-            31265 => [
+            /* 31265 => [
                 'name' => 'Leistung Netzbezug Phase L1',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
-            31267 => [
+            ], */
+             /* 31267 => [
                 'name' => 'Leistung Netzbezug Phase L2',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
-            31269 => [
+            ],  */
+             /*31269 => [
                 'name' => 'Leistung Netzbezug Phase L3',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
-            31259 => [
+            ],  */
+            /* 31259 => [
                 'name' => 'Leistung Netzeinspeisung Phase L1',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
-            31261 => [
+            ],  */
+             /* 31261 => [
                 'name' => 'Leistung Netzeinspeisung Phase L2',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
-            31263 => [
+            ], */
+             /* 31263 => [
                 'name' => 'Leistung Netzeinspeisung Phase L3',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ],
+            ], */
             30581 => [
                 'name' => 'Grid reference counter reading',
                 'count' => 2,
@@ -380,20 +380,6 @@ class SMARegister
                 'name' => 'Momentane Batterieentladung',
                 'count' => 2,
                 'type' => 'U32',
-                'format' => 'FIX0',
-                'profile' => '~Watt'
-            ],
-            32201 => [
-            'name' => 'Aktuelle Ladenenergie',
-                'count' => 4,
-                'type' => 'U64',
-                'format' => 'FIX0',
-                'profile' => '~Watt'
-            ],
-            32205 => [
-                'name' => 'Aktuelle Entladeenergie',
-                'count' => 4,
-                'type' => 'U64',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
             ]
