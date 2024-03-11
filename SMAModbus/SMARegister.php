@@ -274,42 +274,42 @@ class SMARegister
                 'format' => 'FW',
             ],*/
             31265 => [
-                'name' => 'Leistung Netzbezug Phase L1'
+                'name' => 'Leistung Netzbezug Phase L1',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Electricity'
             ],
             31267 => [
-                'name' => 'Leistung Netzbezug Phase L2'
+                'name' => 'Leistung Netzbezug Phase L2',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Electricity'
             ],
             31269 => [
-                'name' => 'Leistung Netzbezug Phase L3'
+                'name' => 'Leistung Netzbezug Phase L3',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Electricity'
             ],
             31265 => [
-                'name' => 'Leistung Netzeinspeisung Phase L1'
+                'name' => 'Leistung Netzeinspeisung Phase L1',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Electricity'
             ],
             31267 => [
-                'name' => 'Leistung Netzeinspeisung Phase L2'
+                'name' => 'Leistung Netzeinspeisung Phase L2',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Electricity'
             ],
             31269 => [
-                'name' => 'Leistung Netzeinspeisung Phase L3'
+                'name' => 'Leistung Netzeinspeisung Phase L3',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
