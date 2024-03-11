@@ -34,7 +34,7 @@ class SMARegister
                     8001 => 'Solar Inverter',
                     8002 => 'Wind Turbine Inverter',
                     8007 => 'Battery Inverter',
-                    8009 => 'Hybrid Wechselrichter'
+                    8009 => 'Hybrid Wechselrichter',
                     8033 => 'Consumer',
                     8064 => 'Sensor System in General',
                     8065 => 'Electricity meter',
