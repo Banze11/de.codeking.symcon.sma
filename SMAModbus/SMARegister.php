@@ -398,7 +398,7 @@ class SMARegister
                 'format' => 'FIX0',
                 'profile' => 'Watt'
             ],
-                30861 => [
+            31393 => [
                 'name' => 'Momentane Batterieladung',
                 'count' => 2,
                 'type' => 'U32',
