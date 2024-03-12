@@ -95,7 +95,7 @@ class SMARegister
                 ]
             ],
             30535 => [
-                'name' => 'Day yield',
+                'name' => 'Day yield1',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX3', // convert Wh to kWh
@@ -103,7 +103,7 @@ class SMARegister
                 'archive' => 1 // archive: counter
             ],
             30537 => [
-                'name' => 'Day yield',
+                'name' => 'Day yield2',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX3', // convert Wh to kWh
@@ -111,7 +111,7 @@ class SMARegister
                 'archive' => 1 // archive: counter
             ],
             30539 => [
-                'name' => 'Day yield',
+                'name' => 'Day yield3',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX3', // convert Wh to kWh
@@ -397,6 +397,13 @@ class SMARegister
                 'type' => 'S32',
                 'format' => 'FIX0',
                 'profile' => 'Watt'
+            ],
+            30845 => [
+                'name' => 'Current battery charge status',
+                'count' => 2,
+                'type' => 'U32',
+                'format' => 'RAW',
+                'profile' => '~Battery.100'
             ],
             31393 => [
                 'name' => 'Momentane Batterieladung',
