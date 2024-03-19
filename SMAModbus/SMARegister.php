@@ -365,6 +365,20 @@ class SMARegister
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
+            ],
+            31397 => [
+                'name' => 'Batterieladung',
+                'count' => 4,
+                'type' => 'U64',
+                'format' => 'FIX0',
+                'profile' => '~Watt'
+            ],
+            31401 => [
+                'name' => 'Batterieentladung',
+                'count' => 4,
+                'type' => 'U64',
+                'format' => 'FIX0',
+                'profile' => '~Watt'
             ]
         ],
     ];
@@ -413,6 +427,13 @@ class SMARegister
                 'name' => 'Batterieentladung',
                 'count' => 4,
                 'type' => 'U64',
+                'format' => 'FIX0',
+                'profile' => '~Watt'
+            ]
+            30847 => [
+                'name' => 'Batteriekapazität',
+                'count' => 2,
+                'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
             ]
