@@ -429,7 +429,7 @@ class SMARegister
                 'type' => 'U64',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ]
+            ],
             30847 => [
                 'name' => 'Batteriekapazität',
                 'count' => 2,
