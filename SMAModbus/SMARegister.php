@@ -95,15 +95,7 @@ class SMARegister
                 ]
             ],
             30535 => [
-                'name' => 'Day yield 30535',
-                'count' => 2,
-                'type' => 'U32',
-                'format' => 'FIX0', // convert Wh to kWh
-                'profile' => '~Electricity',
-                'archive' => 1 // archive: counter
-            ],
-            30539 => [
-                'name' => 'Day yield 30539',
+                'name' => 'Day yield',
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0', // convert Wh to kWh
