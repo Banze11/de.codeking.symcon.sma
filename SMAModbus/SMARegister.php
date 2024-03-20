@@ -118,7 +118,7 @@ class SMARegister
                 'profile' => 'Watt',
                 'archive' => 0 // archive: default
             ],
-             */
+
 
 //BATTERIE
             30845 => [
