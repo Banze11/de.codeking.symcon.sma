@@ -402,6 +402,13 @@ class SMARegister
                 'format' => 'FIX0',
                 'profile' => '~Watt'
             ]
+            34661 => [
+                'name' => 'Ladung der aktuellen Batterie',
+                'count' => 4,
+                'type' => 'U64',
+                'format' => 'FIX0',
+                'profile' => '~Watt'
+            ]
         ],
-    ];
+    ];	
 }
