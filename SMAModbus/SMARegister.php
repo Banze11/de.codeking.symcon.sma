@@ -401,7 +401,7 @@ class SMARegister
                 'type' => 'U32',
                 'format' => 'FIX0',
                 'profile' => '~Watt'
-            ]
+            ],
             34661 => [
                 'name' => 'Ladung der aktuellen Batterie',
                 'count' => 4,
