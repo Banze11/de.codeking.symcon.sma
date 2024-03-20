@@ -119,20 +119,6 @@ class SMARegister
                 'archive' => 0 // archive: default
             ],
              */
-            30581 => [
-                'name' => 'Grid reference counter reading',
-                'count' => 2,
-                'type' => 'U32',
-                'format' => 'FIX3',
-                'profile' => '~Electricity'
-            ],
-            30583 => [
-                'name' => 'Grid feed-in counter reading',
-                'count' => 2,
-                'type' => 'U32',
-                'format' => 'FIX3',
-                'profile' => '~Electricity'
-            ],
 
 //BATTERIE
             30845 => [
