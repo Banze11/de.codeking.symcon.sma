@@ -107,7 +107,7 @@ class SMARegister
                 'count' => 2,
                 'type' => 'U32',
                 'format' => 'FIX0',
-                'profile' => 'kWh.Fixed',
+                'profile' => 'kWatt_ohne_Nachkomma',
                 'archive' => 1 // archive: counter
             ],
             30775 => [
